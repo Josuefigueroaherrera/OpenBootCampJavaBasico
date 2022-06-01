@@ -1,0 +1,56 @@
+package Tarea1JavaBasico;
+
+public class Tarea1 {
+
+    public static void main(String[] args) {
+
+        // 1.Enteros
+        byte number1 = 4;
+        short number2 = 3;
+        // 2. Flotante
+        float variable3 = 15.3f;
+        double variable5 = 14.5d;
+        // 3. Caracter
+        char caracter = 'a';
+        // 4. Booleanos
+        boolean verdadero = true;
+        boolean falso = false;
+        // Cadenas de texto
+        String nombre = "Josue";
+        String apellido = "Figueroa";
+        // Tipos envoltorios
+        Integer numero = null;
+        Long variable2 = 2L;
+        // Sentencias If Else
+
+        Boolean check = 5<20;
+        int number4= 50;
+        int number5= 10;
+        int number3= 15;
+        int number6= 45;
+        int number7= 11;
+        //IF - ELSE IF - ELSE
+        if (number3<number1&&number3<number2){
+            System.out.println("verdadero");
+        } else if (number3<number7) {
+            System.out.println("ELSEIF");
+        } else  {
+            System.out.println("FIINNNNN");
+        }
+        // BUCLE-FOR
+        for (int i=0;i<3;i++){
+            System.out.println("Soy el mejor");
+        }
+        // SWITCH
+        String wheather = "sunny";
+        switch ( wheather) {
+            case "sunny":
+                System.out.println("SOLEADO");
+            break;
+            default:
+                System.out.println("No se identifico");
+        }
+        // Objetos
+       String coche = " TOYOTA";
+        Tarea1 cocheObjeto = new Tarea1();
+        
