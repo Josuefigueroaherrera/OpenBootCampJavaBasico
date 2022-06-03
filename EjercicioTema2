@@ -1,0 +1,30 @@
+public class Ejercicio2 {
+
+    public static void main(String[] args) {
+
+
+        String cocaCola = "Precio cocaCola";
+        double darPrecio = serie(19, 100);
+        System.out.println(cocaCola + " " + darPrecio);
+
+        String golosinas = "Precio golosinas";
+        double darPrecio1 = serie1(19,200);
+        System.out.println(golosinas+" "+ darPrecio1);
+
+        String chocolates = "Precio Chocolates";
+        double darPrecio2 = serie2(19,300);
+        System.out.println(chocolates+" "+ darPrecio2);
+    }
+
+    static double serie(int a, int b) {
+        return a * b / 100;
+    }
+    static double serie1(int a, int b) {
+        return a*b/100;
+    }
+    static double serie2(int a, int b) {
+        return a*b/100;
+    }
+
+}
+
