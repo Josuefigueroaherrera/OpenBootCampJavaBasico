@@ -1,0 +1,11 @@
+package Tarea1JavaBasico;
+
+public class Tarea3 {
+
+    public static void main(String[] args) {
+    String [] nombres = {"a","b","c"};
+        for (int i=0; i< nombres.length; i++){
+            System.out.println("nombres: "+nombres[i]);
+        }
+    }
+}
