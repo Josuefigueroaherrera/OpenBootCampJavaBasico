@@ -1,0 +1,26 @@
+package SmartDevice.Herencia;
+
+public class SmartPhone {
+
+    // 1. Atributos
+    public int alertaPerdida;
+    public int llamadas;
+    int hora;
+    public int wifi;
+    public int camara;
+
+    public SmartPhone () {
+
+    }
+    // 2. Constructores
+
+
+    public SmartPhone(int alertaPerdida, int llamadas, int hora, int wifi, int camara){
+        this.alertaPerdida = alertaPerdida;
+        this.llamadas = llamadas;
+        this.hora = hora;
+        this.wifi = wifi;
+        this.camara = camara;
+    }
+    
+}
