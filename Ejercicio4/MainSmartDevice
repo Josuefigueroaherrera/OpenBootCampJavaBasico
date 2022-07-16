@@ -1,0 +1,80 @@
+package SmartDevice;
+
+import SmartDevice.Herencia.SmartPhone;
+import SmartDevice.Herencia.SmartWatch;
+
+public class MainSmartDevice {
+
+    public static void main(String[] args) {
+
+        SmartWatch reloj = new SmartWatch("IR ALGUN LUGAR", "Dormir 9:00pm", 101.1,
+                50.2,"5:20am",80,120 ,1980.5,"Dormir 9pm",1000);
+
+        SmartPhone celular = new SmartPhone( 210,920702830,5,18141085,16);
+
+        System.out.println(reloj.recordatorios);
+        System.out.println(reloj.controlSueño);
+        System.out.println(reloj.temporizador);
+        System.out.println(reloj.calorias);
+        System.out.println(celular.alertaPerdida);
+        System.out.println(celular.llamadas);
+        System.out.println(celular.wifi);
+        System.out.println(celular.camara);
+
+
+    }
+    public MainSmartDevice(){
+
+
+    }
+    // SmartPohone
+    int alertaPerdida;
+    int llamadas;
+    int hora;
+    int wifi;
+    int camara;
+    // SmartWatch
+    double cronometro;
+    double temporizador;
+    double despertador;
+    int presionArterial;
+    int contadorPasos;
+    double calorias;
+    boolean alarma;
+    int distancia;
+    String recordatorios;
+    String controlSueño;
+
+
+
+
+
+    /**
+     * ## Ejercicio
+     *
+     * Crear una clase SmartDevice
+     *
+     * Crear las clases hijas:
+     *
+     * SmartPhone
+     * SmartWatch
+     *
+     * Agregar atributos tal cual tendrian esos objetos en la realidad
+     *
+     * Crear constructor vacio y con todo los parametros para cada clase
+     *
+     * Desde una clase Main: Crear objetos de cada una y utilizarlso para imprimir sus valores por consola
+     *
+     * la clase SmartDevice tendria que tener clase hijas como,  SmartWatch y SmartPhone
+     *
+     * SmartWatch: HORA, CRONOMETRO , TEMPORIZADOR, DESPETADOR , MONITOS DE FRENCUENCIA CARDIACA
+     * PRESION ARTERIAL, CONTADOR DE PASSOS, KILOMETROS , CALORIAS
+     * ALARMA , LINTERNA , PODOMETRO , PRONOSTICO DEL TIEMPO , RECORDATORIOS , METAS
+     * INDENTIFICADOR DE LLAMADAS, CONTROL DE SUEÑO , ALERTA ANTI PERDIDA
+     *
+     * SmartPhone: REALIZAR LLAMADAS TELEFONOICAS, SOPORTE DE CORREO ELECTRONICO Y POSIBILITA A REDES
+     * TECLADO QWERTY , LEER DOCUMENTOS EN PDF O WORDS ,CAMARA TRASERA Y DELANTERA ,
+     * SINCRONIZACION INALAMBRICA CON OTROS DISPOSITIVOS, RECIBIR LLAMADAS, REVISA AGENDA
+     * VER VIDEOS
+     */
+}
