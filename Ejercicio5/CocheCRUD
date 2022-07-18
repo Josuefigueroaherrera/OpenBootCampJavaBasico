@@ -1,0 +1,17 @@
+package Tarea5Semana6;
+
+
+import java.util.List;
+
+public interface CocheCRUD {
+
+    void save ( CocheCRUDImpl cocheCRUDImpl);
+
+
+    List<CocheCRUDImpl> findAll();
+
+
+    void delete(CocheCRUDImpl cocheCRUDImpl);
+
+}
+---interfase---
