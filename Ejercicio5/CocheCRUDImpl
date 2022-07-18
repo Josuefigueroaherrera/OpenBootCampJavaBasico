@@ -18,6 +18,18 @@ public class CocheCRUDImpl implements CocheCRUD {
 
     @Override
     public void delete(CocheCRUDImpl cocheCRUDImpl) {
+    }
 
+    String save = " Guardando";
+    String findAll = " Buscar todo";
+    String delete = " Borrando";
+
+    @Override
+    public String toString() {
+        return "CocheCRUDImpl{" +
+                "save='" + save + '\'' +
+                ", findAll='" + findAll + '\'' +
+                ", delete='" + delete + '\'' +
+                '}';
     }
 }
