@@ -14,4 +14,3 @@ public interface CocheCRUD {
     void delete(CocheCRUDImpl cocheCRUDImpl);
 
 }
----interfase---
