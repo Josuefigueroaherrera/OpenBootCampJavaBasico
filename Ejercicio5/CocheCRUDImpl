@@ -1,0 +1,23 @@
+package Tarea5Semana6;
+
+
+import java.util.List;
+
+public class CocheCRUDImpl implements CocheCRUD {
+
+
+    @Override
+    public void save(CocheCRUDImpl cocheCRUDImpl) {
+
+    }
+
+    @Override
+    public List<CocheCRUDImpl> findAll() {
+        return null;
+    }
+
+    @Override
+    public void delete(CocheCRUDImpl cocheCRUDImpl) {
+
+    }
+}
